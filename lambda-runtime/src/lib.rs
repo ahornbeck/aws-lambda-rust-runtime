@@ -21,7 +21,7 @@ mod requests;
 #[cfg(test)]
 mod simulated;
 /// Types available to a Lambda function.
-mod types;
+pub mod types;
 
 use requests::{EventCompletionRequest, EventErrorRequest, IntoRequest, NextEventRequest};
 use types::Diagnostic;
